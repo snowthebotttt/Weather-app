@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/Style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1 class="weather-h1">Weather Dashboard</h1>
+    </header>
+    <!-- Search Container / History of previous cities -->
+    <div class="container">
+      <div class="search-container">
+        <h2 id="city">Search for a city</h2>
+        <input type="text" id="search" />
+        <button id="submit">Search</button>
+        <div class="previous-container"></div>
+      </div>
+      <!-- Weather container for current city -->
+      <div class="city-weather-container hide">
+        <h2 id="city-name"></h2>
+        <p id="date"></p>
+        <img id="weather-icon" src="" alt="weather icon" />
+        <p id="temperature">Temperature:</p>
+        <p id="humidity">Humidity:</p>
+        <p id="wind-speed">Wind Speed:</p>
+        <!-- 5 Day forecast cards -->
+        <div class="card-container">
+          <div class="forecast-card">
+            <p class="date"></p>
+            <img class="weather-icon" src="" alt="weather icon" />
+            <p class="temperature"></p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
+          </div>
+          <div class="forecast-card">
+            <p class="date"></p>
+            <img class="weather-icon" src="" alt="weather icon" />
+            <p class="temperature"></p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
+          </div>
+          <div class="forecast-card">
+            <p class="date"></p>
+            <img class="weather-icon" src="" alt="weather icon" />
+            <p class="temperature"></p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
+          </div>
+          <div class="forecast-card">
+            <p class="date"></p>
+            <img class="weather-icon" src="" alt="weather icon" />
+            <p class="temperature"></p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
+          </div>
+          <div class="forecast-card">
+            <p class="date"></p>
+            <img class="weather-icon" src="" alt="weather icon" />
+            <p class="temperature"></p>
+            <p class="humidity"></p>
+            <p class="wind-speed"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
+    <script src="./assets/JavaScript.js"></script>
+  </body>
+</html>
