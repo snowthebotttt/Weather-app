@@ -9,3 +9,6 @@ The current weather conditions for the city show its name, date, and wind speed.
 Users can click on the search history to view the current and future weather conditions for a previously searched city.
 
 https://snowthebotttt.github.io/Weather-app/
+
+![image](https://user-images.githubusercontent.com/49454716/224197966-d65b3aac-eda9-4271-8afb-4f55d133174d.png)
+
